@@ -1,0 +1,1135 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+*{
+    font-family:'poppins','sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform:capitalize;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+}
+
+:root{
+
+--red:#dc4242;
+--bg1:rgba(154, 146, 146, 0.15);
+--black:#13131a;
+--blue:#1e5598;
+--dark:#001F3F;
+--green:#244d66;
+--dark-blue:#3981aec7;
+--beige:#EAD8B1;
+
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .5rem 1.1rem .5rem 1.1rem;
+    color: #fff;
+    background-color: var(--dark-blue);
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: .3rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+
+.btn:hover{
+    color: rgb(14, 44, 86);
+    background-color: #fff;
+    border: 1px solid rgb(14, 44, 86);
+}
+
+
+/* header section start */
+
+.top-container{
+    display: flex;
+    /* border: solid; */
+    width: 100%;
+    height:6rem;
+  
+    /* position: fixed; */
+    box-shadow: 0 0 0px 4px rgba(213, 214, 215, 0.5);
+    background: white;
+
+}
+
+.top-container .content1{
+    width:10rem ;
+    height: 4rem;
+    /* border: solid black; */
+    margin: 1rem 1rem 0 8rem;
+}
+
+.top-container .content1 img{
+    width:10rem ;
+    height: 4rem;
+   
+   
+}
+
+.top-container .content2{
+    width:39rem ;
+    height: 4rem;
+    /* border: solid black; */
+    margin: 1rem 1rem 0 .5rem;
+}
+.top-container .content2:hover{
+    transform:scale(1.1);
+}
+
+.top-container .content2 img{
+    width:40rem ;
+    height: 4rem;
+
+}
+.top-container .content3{
+    width:10rem ;
+    height: 2.5rem;
+    margin: 2rem 1rem 0 3rem;
+    background: rgb(244, 193, 97);
+    box-shadow: 0 0 5px 5px rgba(211, 215, 224, 0.5);
+    border-radius: .3rem;
+    padding-left: .5rem;
+  
+}
+
+.top-container .content3:hover{
+    transform:scale(1.1);
+}
+
+.top-container .content3 p{
+    margin-top: .5rem;
+}
+
+.top-container .content4{
+    border-radius: .3rem;
+    width:10rem ;
+    height: 2.5rem;
+    margin: 2rem 0 0 1rem;
+    background: rgb(244, 193, 97);
+    box-shadow: 0 0 5px 5px rgba(211, 215, 224, 0.5);
+}
+
+.top-container .content4:hover{
+    transform:scale(1.1);
+}
+
+
+.top-container .content4 p{
+    margin-top: .5rem ;
+    font-weight: 500;
+    margin-left: 1.5rem;
+}
+
+ /* header section end */
+
+
+
+.homecontainer{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    padding: 1rem 4rem 0rem 4rem;
+}
+
+.homecontainer .content{
+    margin-left:3rem ;
+    display: flex;
+    width: 58%;
+    height: 75vh;
+    border-left: .1px solid gray;
+    
+
+}
+
+.homecontainer .content2{
+    margin: 0 0 0 2rem;
+    border-radius: 1rem;
+    padding: 2rem 1rem 1rem 1.5rem;
+    display: flex;
+    border-top: solid var(--blue);
+    width: 40%;
+    height: 75vh;
+    background: linear-gradient(135deg, #2762ab, #052a4e );
+    box-shadow: 0 0 5px 5px rgba(118, 140, 195, 0.5);
+    border: 1px solid black;
+    justify-content: space-evenly;
+
+}
+ 
+.homecontainer .content2 h2{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: white; }
+ 
+.homecontainer .content2 .form-container .input .name{
+    display: inline;
+    width: 100%; 
+    height: 2.2rem;
+    margin: .4rem 0;
+    color: var(--black);
+    text-transform: none;
+    background: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.homecontainer .content2 .form-container .input .text-name{
+    width: 100%;
+    display: inline;
+    height: 2.2rem;
+    margin: .4rem 0;
+    color: var(--black);
+    text-transform: none;
+    background: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.homecontainer .content2 .form-container .input .num{
+    width: 100%;
+    display: inline;
+    height: 2.2rem;
+    margin: .4rem 0;
+    color: var(--black);
+    text-transform: none;
+    background: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.homecontainer .content2 .form-container .input-name .country{
+    padding-left: 1rem;
+    width: 100%;
+    height: 2.2rem;
+    margin: .4rem 0;
+    color: var(--black);
+    text-transform: none;
+    background: white;
+    font-size: 1rem;
+}
+
+.homecontainer .content2 .btn{
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 80%;
+    height: 3rem;
+    background: var(--dark);
+    color: white;
+}
+.homecontainer .content2 .country{
+    margin-left: 22px;
+    display: inline-block;
+    width: 95%;
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.2s ease;
+    border:  grey ;
+    height: 25px;
+    margin-top: 24px;
+} 
+
+
+ 
+
+
+/* pr .Eligibility section start */
+
+.CNd-pr-Eligibility{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background:var(--bg1)
+}
+
+.CNd-pr-Eligibility .Eligibility-box{
+    width: 50%;
+    padding-top: 3rem;
+    padding-left: .5rem;
+}
+
+.CNd-pr-Eligibility .Eligibility-box h2{
+    font-size: 1.6rem;
+    padding-left: 8.5rem;
+   font-weight: 700;
+}
+
+.CNd-pr-Eligibility .Eligibility{
+    margin: 1.3rem 3rem  3.5rem 8rem ;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: center; */
+    row-gap: 1.5rem;
+    
+}
+
+
+.CNd-pr-Eligibility .Eligibility i{
+    padding-top: 2rem;
+    padding-left: 6rem;
+    font-size: 3rem;
+    color: var(--red);
+    
+}
+
+.CNd-pr-Eligibility .Eligibility p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+
+
+
+.CNd-pr-Eligibility .Eligibility .education{
+    display: block;
+    width: 16.5rem;
+    height: 12rem;
+    border-radius: 5px;
+    border: .2px solid grey;
+    background: white;
+}
+
+.CNd-pr-Eligibility .Eligibility .age{
+    display: block;
+    /* padding: 2rem; */
+    width: 16.5rem;
+    height: 12rem;
+    border-radius: 5px;
+    border: .2px solid grey;
+    background: white;
+}
+
+.CNd-pr-Eligibility .Eligibility .language{
+    display: block;
+    /* padding: 2rem; */
+    width: 16.5rem;
+    height: 12rem;
+    border-radius: 5px;
+    border: .2px solid grey;
+    background: white;
+}
+
+.CNd-pr-Eligibility .Eligibility .experience{
+    /* padding: 2rem; */
+    display: block;
+    width: 16.5rem;
+    height: 12rem;
+    border-radius: 5px;
+    border: .2px solid grey;
+    background: white;
+}
+
+
+.CNd-pr-Eligibility .imigration-plans{
+    width: 50%;
+    height: 100%;
+}
+
+.CNd-pr-Eligibility .imigration-plans .imigration-plans-container{
+    margin:3rem 6rem 2rem 4rem;
+    padding: 2rem;
+
+}
+.CNd-pr-Eligibility .imigration-plans h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-left:.5rem;
+}
+
+.CNd-pr-Eligibility .imigration-plans span{
+    color: var(--red);
+}
+
+.CNd-pr-Eligibility .imigration-plans  .content-1{
+    width: 100%;
+    height: 8rem;
+    padding: .5rem 2rem .5rem 2rem;
+    align-content: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    background: #fff;
+    border-radius: .4rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+
+}
+
+.CNd-pr-Eligibility .imigration-plans  .content-2{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+  
+
+}
+
+.CNd-pr-Eligibility .imigration-plans  .content-2 .box1{
+    align-content: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    background: #fff;
+    border-radius: .4rem;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+.CNd-pr-Eligibility .imigration-plans  .content-2 .box2{
+    align-content: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    background: #fff;
+    border-radius: .4rem;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+.CNd-pr-Eligibility .imigration-plans  .content-2 .box3{
+    align-content: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    background: #fff;
+    border-radius: .4rem;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+
+
+
+
+
+
+
+
+/* Pnp section start */
+
+.canada-pnp{
+     width: 100%;
+     height: 135rem;
+ }
+
+.canada-pnp .heading{
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 600;
+}
+
+.canada-pnp .box-container{
+    padding: 1rem 5rem 1rem 5rem;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.canada-pnp .box-container .box{
+    width: 25rem;
+    border: 1px solid grey;
+    border-radius: .5rem;
+    overflow: hidden;
+    /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3); */
+}
+.canada-pnp .box-container .box .top {
+  display: flex;
+}
+.canada-pnp .box-container .box .top img{
+    display: inline;
+    width: 4rem ;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.canada-pnp .box-container .box .top h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+}
+
+.canada-pnp .box-container .box img{
+    border-radius: 5%;
+    height: 20rem;
+    width: 100%;
+    padding: .5rem ;
+    object-fit: cover;
+}
+
+.canada-pnp .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .5rem 1.1rem .5rem 1.1rem;
+    color: #fff;
+    background-color: var(--dark);
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: .3rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+
+
+.canada-pnp .btn:hover{
+    color: rgb(14, 44, 86);
+    background-color: #fff;
+    border: 1px solid rgb(14, 44, 86);
+}
+
+.canada-pnp .box-container .box .content{
+    padding: .5rem;
+}
+
+.canada-pnp .box-container .box .content h3{
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+
+.canada-pnp .box-container .box .content p{
+    font-size: 1.1rem;
+    color: black;
+    padding: .5rem 0 ;
+}
+
+
+/* Pnp section end */
+
+/* news letter */
+
+/* NEWSLETTER */
+
+.newsletter{
+    width: 100%;
+    height: 50vh;
+    background: url(images/nimg.jpg) no-repeat;
+    background-size: cover;
+}
+.newsletter form{
+    max-width: 50rem;
+    height: 55vh;
+    margin-left: auto;
+    text-align: center;
+    padding: 3rem 4rem 2rem 4rem;
+    /* border: .2rem solid; */
+    margin-bottom: 80px;
+    margin-left: 0;
+     max-width: 100%;
+    
+    
+}
+.newsletter form h3{
+    font-size: 2.2rem;
+    color:#0c0909;
+    padding-bottom: .7rem;
+    font-weight: normal;
+   
+
+}
+
+.newsletter-container{
+    width: 100%;
+    display: flex;
+    column-gap: .5rem;
+
+  
+   
+}
+
+
+
+
+.newsletter form .box{
+    width: 100%;
+    height: 2.5rem;
+    margin: .4rem 0;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    color: var(--black);
+    border-radius: 1.3rem;
+    text-transform: none;
+  
+    
+}
+
+
+ .newsletter-container2{
+    width: 100%;
+    display: flex;
+    column-gap: .5rem;
+    
+   
+  
+   
+}
+
+.newsletter-container2 .input-name{
+    width: 100%;
+   
+   
+   
+}
+
+.newsletter-container2 .input-name .country{
+    padding-left: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    margin: .4rem 0;
+    color: var(--black);
+    border-radius: 1.3rem;
+    text-transform: none;
+    background: white;
+    font-size: 1.2rem;
+   
+}
+
+.newsletter-container2 .input-name .experience{
+    padding-left: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    margin: .4rem 0;
+    color: var(--black);
+    border-radius: 1.3rem;
+    text-transform: none;
+    background: white;
+    font-size: 1.2rem;
+   
+}
+
+.newsletter-container2 .input-name .visa{
+    padding-left: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    margin: .4rem 0;
+    color: var(--black);
+    border-radius: 1.3rem;
+    text-transform: none;
+    background: white;
+    font-size: 1.2rem;
+   
+}
+
+/* .newsletter-container2 .input-name .country{
+    width: 135%;
+} */
+
+ .input-name .btn{
+    margin-top: 40px;
+    color: white;
+    background-color: orangered;
+}
+
+/* table start */
+
+.annual-salary{
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10rem 1.5rem 10rem;
+}
+
+.annual-salary .content .heading{
+    text-align: center;
+}
+
+.annual-salary .content{
+    border: black;
+    text-align: center;
+    width: 100%;
+    font-size: .7rem;
+}
+
+.annual-salary .content .heading{
+    font-size: 1rem;
+    height: 3rem;
+    background: black;
+    color: white;
+}
+
+
+.annual-salary .content .odd{
+    border: 1px solid black;
+    background: rgb(244, 245, 236);
+    height: 3rem;
+    font-size: .9rem;
+}
+
+
+.annual-salary .content .even{
+    border: 1px solid black;
+    background: white;
+    height: 3rem;
+    font-size: .9rem;
+}
+
+.annual-salary .content td{
+    border: 1px solid black;
+}
+
+/* MEDIAS */
+
+.media-container{
+    margin-top: 2rem;
+    padding: 6rem 3rem 2rem 3rem;
+    width: 100%;
+    height: 50vh;
+    background-color: #f5e1cf;
+  
+    
+}
+
+.media-container h4{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.media-container .medias{
+    padding: 1rem 4.5rem 0 4.5rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+
+
+.hindustantimes{
+    width: 12rem;
+    height: 8rem;
+    background: #ffffff;
+    border-radius: .5rem;
+   border: 1px solid rgb(220, 215, 215);
+    
+}
+
+.hindustantimes img{
+    width: 12rem;
+    height: 8rem;
+}
+
+.hindustantimes img:hover{
+    transform: scale(1.1);
+}
+
+.dailyhunt{
+
+    width: 12rem;
+    height: 8rem;
+    background: white;
+    border-radius: .5rem;
+   border: 1px solid rgb(220, 215, 215);
+  
+}
+.dailyhunt img{
+    width: 12rem;
+    height: 8rem;
+}
+
+.dailyhunt img:hover{
+    transform: scale(1.1);
+}
+
+.prlog{
+ 
+    width: 12rem;
+    height: 8rem;
+    background: white; 
+    border-radius: .5rem;
+   border: 1px solid rgb(220, 215, 215);
+}
+
+
+.prlog img{
+    width: 12rem;
+    height: 8rem;
+}
+
+.prlog img:hover{
+    transform: scale(1.1);
+}
+
+.zeenews{
+    width: 12rem;
+    height: 8rem;
+    background: white;
+    border-radius: .5rem;
+   border: 1px solid rgb(220, 215, 215);
+}
+.zeenews img{
+    width: 12rem;
+    height: 8rem;
+}
+
+.zeenews img:hover{
+    transform: scale(1.1);
+}
+
+.youthblog{
+    width: 12rem;
+    height: 8rem;
+    background: white;
+    border-radius: .5rem;
+   border: 1px solid rgb(220, 215, 215);
+}
+
+.youthblog img{
+    width: 12rem;
+    height: 8rem;
+}
+
+.youthblog img:hover{
+    transform: scale(1.1);
+}
+
+.chronocle{
+    width: 12rem;
+    height: 8rem;
+    background: white;
+    border-radius: .5rem;
+   border: 1px solid rgb(220, 215, 215);
+}
+
+.chronocle img{
+    width: 12rem;
+    height: 8rem;
+}
+
+.chronocle img:hover{
+    transform: scale(1.1);
+}
+
+/* facility section start */
+
+.facilitie-heading h4{
+
+    margin-top: 4rem;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.facilitie-main-container{
+    padding: 3rem 2rem 3rem 6rem;
+    width: 100%;
+    height: 60vh;
+    background-color:white;
+}
+.facilitie-main-container h4{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #010103;
+}
+
+.facilitie-container{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.facilitie-container i{
+    font-size: 1.5rem;
+}
+
+.free-consultation{
+    width: 18rem;
+    height: 18rem;
+    background:var(--green);
+    border-radius: .5rem;
+   border: 1px solid rgb(220, 215, 215);
+}
+
+.free-consultation:hover{
+    transform: scale(1.1);
+}
+
+.free-consultation-icon{
+    width: 4rem;
+    height: 4rem;
+    color: #001F3F;
+    background: #e9d3b7;
+    margin: 3rem 4rem 2rem 7rem;
+    box-shadow: var(--green);
+    /* paddinng: top left buttom right */
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: .5rem;
+    /* border: 1px solid rgb(223, 212, 212); */
+    box-shadow: -8px -8px   #253f56;
+  
+}
+
+.free-consultation h5{
+    color: white;
+    text-align: center;
+}
+
+.free-consultation p{
+    color: white;
+    text-align: center;
+    font-weight: 370;
+    margin: 0 1rem 0 1rem;
+}
+
+
+
+.documentation-assistance{
+    width: 18rem;
+    height: 18rem;
+    background:var(--green);
+    border-radius: .5rem;
+    border: 1px solid rgb(220, 215, 215);
+
+}
+.documentation-assistance:hover{
+    transform: scale(1.1);
+}
+
+.documentation-assistence-icon{
+    width: 4rem;
+    height: 4rem;
+    color: #001F3F;
+    background: #e9d3b7;
+    margin: 3rem 4rem 2rem 7rem;
+    box-shadow: var(--green);
+    padding: 1rem 1rem 2rem 1.5rem;
+    border-radius: .5rem;
+    /* border: 1px solid rgb(223, 212, 212); */
+    box-shadow: -8px -8px   #253f56;
+}
+
+.documentation-assistance h5{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.documentation-assistance p{
+    color: white;
+    text-align: center;
+    font-weight: 370;
+    margin: 0 1rem 0 1rem;
+}
+
+.application-support{
+    width: 18rem;
+    height: 18rem;
+    background: var(--green);
+    border-radius: .5rem;
+    border: 1px solid rgb(220, 215, 215);
+}
+.application-support:hover{
+    transform: scale(1.1);
+}
+
+.application-support-icon{
+    width: 4rem;
+    height: 4rem;
+    color: #001F3F;
+    background: #e9d3b7;
+    margin: 3rem 4rem 2rem 7rem;
+    box-shadow: var(--green);
+    padding: 1rem 1rem 2rem 1.2rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(223, 212, 212);
+    box-shadow: -8px -8px   #253f56;
+}
+
+.application-support h5{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.application-support p{
+    color: white;
+    text-align: center;
+    font-weight: 370;
+    margin:0 .1rem 0 0;
+}
+
+.post-landing-support{
+    width: 18rem;
+    height: 18rem;
+    background: var(--green);
+    border-radius: .5rem;
+    /* border: 1px solid rgb(220, 215, 215); */
+}
+.post-landing-support:hover{
+    transform: scale(1.1);
+}
+
+.post-landing-support-icon{
+    size: 1rem;
+    width: 4rem;
+    height: 4rem;
+    color: #001F3F;
+    background: #e9d3b7;
+    margin: 3rem 4rem 2rem 7rem;
+    box-shadow: var(--green);
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: .5rem;
+    /* border: 1px solid rgb(223, 212, 212); */
+    box-shadow: -8px -8px   #253f56;
+}
+
+.post-landing-support h5{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.post-landing-support p{
+    color: white;
+    text-align: center;
+    font-weight: 370;
+}
+
+/* footer section start */
+
+.footer-container{
+    width: 100%;
+    height: 60vh;
+    /* border: .5rem solid black; */
+    background: #253f56;
+   
+    
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    /* border: solid black; */
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.india-main-container{
+    /* border: solid black; */
+    width:27rem ;
+    margin-left: 45px;
+    
+}
+
+.india-main-container h4{
+    text-align: justify;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.india-main-container p{
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.footer .india{
+    width:15rem;
+    height: 3rem;
+    /* border: solid black; */
+    margin-top: 4rem;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.footer .india img{
+    width: 5rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
+
+.india-detail{
+    color: white;
+    margin-left: .5rem;
+}
+
+.canada-main-container{
+    /* border: solid black; */
+    width: 19rem;
+}
+.canada-main-container h4{
+    text-align: justify;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.canada-main-container p{
+    color: white;
+    /* font-weight: 300; */
+    font-size: 1rem;
+}
+
+.footer .canada{
+    width:15rem;
+    height: 3rem;
+    /* border: solid black; */
+    margin-top: 4rem;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.footer .canada img{
+    width: 5rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
+
+.dubai-main-container{
+    /* border: solid black; */
+    width: 19rem;
+}
+
+.dubai-main-container h4{
+    text-align: justify;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.dubai-main-container p{
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.footer .dubai{
+    width:15rem;
+    height: 3rem;
+    /* border: solid black; */
+    margin-top: 4rem;
+    display: flex;
+    padding-bottom: 4rem;
+
+}
+
+.footer .dubai img{
+    width: 5rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
